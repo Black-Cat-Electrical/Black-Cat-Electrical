@@ -23,9 +23,10 @@ body {
 	background-color: white;
 	text-align: center;
 	line-height: 90px;
-  -webkit-user-select: none;
-  user-select: none;
-  moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+    moz-user-select: none;
+    height: 130px;
 }
 
 #navbar a {

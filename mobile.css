@@ -101,17 +101,17 @@ body {
 #hamburger {
 	width: 50px;
 	height: 50px;
-	float: right;
-	bottom: 60px;
-	position: relative;
+	top: 30px;
+	right: 0px;
+	position: fixed;
 	margin-right: 20px;
 	border: 2px solid transparent;
 	transition: 0.2s;
 	cursor: pointer;
-	z-index: 10;
-  -webkit-user-select: none;
-  user-select: none;
-  moz-user-select: none;
+	z-index: 100;
+    -webkit-user-select: none;
+    user-select: none;
+    moz-user-select: none;
 }
 
 #hamburgerdisplay {
@@ -144,9 +144,9 @@ body {
 	z-index: 9;
 	transition: 0.6s;
 	transform: rotate(180deg);
-  -webkit-user-select: none;
-  user-select: none;
-  moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+    moz-user-select: none;
 }
 
 #navrotate {
@@ -156,13 +156,14 @@ body {
 
 #navrotate a {
   display: inline-block;
-  padding: 15px;
+  padding: 3vh;
   margin: 10px;
   text-decoration: none;
   color: rgb(50,50,50);
   margin: 10px;
   position: relative;
   bottom: calc(20vh - 70px);
+  height: 30px;
 }
 
 #navrotate a div {
