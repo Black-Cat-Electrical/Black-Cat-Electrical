@@ -66,16 +66,16 @@ body {
 }
 
 #topimage {
-	height: calc(100vh - 135px);
+	height: calc(100vh - 250px);
 	background-color: black;
 	background-size: cover;
 	background-position: center;
-	background-image: url('./style/images/Red.jpg');
+	background-image: url('./style/images/logo.jpg');
 }
 
 #topimage h1 {
 	margin: 0px;
-	color: white;
+	color: transparent;
 	text-align: center;
 	padding-top: calc(40vh - 70px);
 	font-size: 4em;
@@ -99,9 +99,9 @@ body {
 	padding: 15px;
 	padding-left: 20px;
 	padding-right: 20px;
-	background-color: white;
+	background-color: red;
 	text-decoration: none;
-	color: black;
+	color: white;
 	cursor: pointer;
 	transition: 0.2s;
   -webkit-user-select: none;
@@ -169,7 +169,7 @@ h3 {
 	float: right;
 	height: calc(60vw * 0.6);
 	max-height: calc(720px * 0.6);
-	background-color: black;
+	background-color: red;
 	width: 60%;
 }
 
@@ -197,7 +197,7 @@ h3 {
 }
 
 .widesectioninfoleft div a {
-	background-color: rgb(40,40,40);
+	background-color: red;
 	padding: 15px;
 	color: white;
 	cursor: pointer;
@@ -212,7 +212,7 @@ h3 {
 	float: left;
 	height: calc(60vw * 0.6);
 	max-height: calc(720px * 0.6);
-	background-color: black;
+	background-color: white;
 	width: 60%;
 }
 
@@ -240,7 +240,7 @@ h3 {
 }
 
 .widesectioninforight div a {
-	background-color: rgb(40,40,40);
+	background-color: red;
 	padding: 15px;
 	color: white;
 	cursor: pointer;
@@ -319,7 +319,7 @@ h3 {
 }
 
 .defaultcontact a {
-	background-color: rgb(40,40,40);
+	background-color: red;
 	padding: 15px;
 	color: white;
 	cursor: pointer;
